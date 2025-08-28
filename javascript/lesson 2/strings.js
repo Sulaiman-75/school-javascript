@@ -17,3 +17,4 @@ console.log(sentence.endsWith(firstName));
 console.log(firstName.indexOf("Sulaiman"));
 //returns the last index of the given character if it does not exits returns -1
 console.log(sentence.lastIndexOf("a"));
+//github works
