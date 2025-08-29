@@ -13,9 +13,9 @@ console.log(firstName.concat(" ", lastName));
 console.log(firstName.length)
 //checks whether a string ends with the string in the parenthesis
 console.log(sentence.endsWith(firstName));
-//returns the index of the given character if it does not exits returns -1
+//returns the first instance of the given character if it does not exits returns -1
 console.log(firstName.indexOf("Sulaiman"));
-//returns the last index of the given character if it does not exits returns -1
+//returns the last instance of the given character if it does not exits returns -1
 console.log(sentence.lastIndexOf("a"));
 //github works
 console.log("github works");
