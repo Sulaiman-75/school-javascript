@@ -17,6 +17,18 @@ console.log(sentence.endsWith(firstName));
 console.log(firstName.indexOf("Sulaiman"));
 //returns the last instance of the given character if it does not exits returns -1
 console.log(sentence.lastIndexOf("a"));
+//to uppercase
+console.log(sentence.toUpperCase());
+//to lowercase
+console.log(sentence.toLowerCase());
+//replaces all instances of a specified character with another character
+sentence = sentence.replaceAll(" ", "_");
+console.log(sentence);
+
+
+
+
+
 //github works
-console.log("github works");
+//console.log("github works");
 //!!!!!
