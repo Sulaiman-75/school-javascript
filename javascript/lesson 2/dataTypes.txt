@@ -1,0 +1,83 @@
+Primitive Data vs Reference Data Types
+
+Primitive Data types: string, number, boolean, null, undefined
+When you declare a primitive type in javascript, it is stored in a stack in memory
+(a stack is a data structure that a computer uses to store unretrieved data quickly).
+
+let x = 10;
+let y = x (passed by value; a copy of the value is created)
+
+stack
+|x = 10|
+|y = 10|
+|      |
+|      |
+
+let x = 15
+
+stack
+|x = 15|
+|y = 10|
+|      |
+|      |
+
+console.log(x);
+returns: 15
+
+console.log(y):
+returns: 10
+
+let y = 20
+
+stack
+|x = 15|
+|y = 20|
+|      |
+|      |
+
+console.log(x);
+returns: 15
+
+console.log(y):
+returns: 20
+
+Reference types are types passed by reference(a pointer).
+Examples: Objects, Array, Dates, Functions
+
+The actual objects is not stored on the stack, it only stores a reference to the data which is stored on the heap.
+
+let emp1 = {
+    firstName: "John"
+}
+let emp2 = emp1;
+
+Heap    
+|Dx1{firstName: John}|
+|                    |
+|                    |
+|                    |
+
+Stack
+|x = 15   |
+|y = 20   |
+|emp1: Dx1|
+|emp2: Dx1|
+
+emp2.firstName = "Cole"
+
+Heap    
+|Dx1{firstName: Cole}|
+|                    |
+|                    |
+|                    |
+
+Stack
+|x = 15   |
+|y = 20   |
+|emp1: Dx1|
+|emp2: Dx1|
+
+both employees now return firstName: Cole
+
+To create a new instance of data instead of setting 2 variables to the same reference, you have to use the keyword new.
+
