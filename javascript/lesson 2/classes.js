@@ -25,3 +25,4 @@ class rectangle {
 }
 box = new rectangle(2, 5); 
 console.log(box.perimeter);
+console.log(box.area);
