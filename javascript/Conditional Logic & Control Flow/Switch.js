@@ -11,13 +11,11 @@ let Employee = {
 
 switch (Employee.department) {
     case "Engineering":
+    case "Sales":
         console.log("Meet in building 1."); 
         break;
     case "Marketing":
         console.log("Meet in building 2.");
-        break;
-    case "Sales":
-        console.log("Meet in building 1."); 
         break;
     default:
         console.log("Meet in building 3 ");
