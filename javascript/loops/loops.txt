@@ -1,0 +1,6 @@
+A loop repeats a block of code until a condition is met. 
+
+An example of a condition is reaching the end of a collection (array).
+
+The first type of loop is the FOR LOOP
+

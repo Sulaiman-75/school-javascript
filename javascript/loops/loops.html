@@ -1,0 +1,25 @@
+<script>
+    //for loops
+//for (let i = 0; i < 10; i++) {
+//    console.log(i);
+//} 
+
+//infinite loops
+//while (true) {
+//    console.log("This loop will run forever!");
+//}
+        let x = "💀";
+document.addEventListener(`keydown`, function(event) {
+//runs at least once
+        if (event.key == "ArrowLeft") {
+            x = x + "   ";
+            console.log(x);
+    }
+        if (event.key == "ArrowRight") {
+        x = "   " + x;
+        console.log(x)
+;
+    }
+})
+
+</script>
