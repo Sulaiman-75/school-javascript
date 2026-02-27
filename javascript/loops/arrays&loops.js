@@ -53,7 +53,7 @@
 //    console.log(day);
 //}
 
-let numbers = [Math.round(Math.random() * 10), Math.round(Math.random() * 10), Math.round(Math.random() * 10), Math.round(Math.random() * 10), Math.round(Math.random() * 10)];
+let numbers = [Math.round(Math.random() * 100), Math.round(Math.random() * 100), Math.round(Math.random() * 100), Math.round(Math.random() * 100), Math.round(Math.random() * 100)];
 console.log(numbers);
 
 function getLargestNumber(arr) {

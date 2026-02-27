@@ -9,18 +9,17 @@
 //    console.log("This loop will run forever!");
 //}
         let x = "💀";
+document.addEventListener(`keydown`, function(event) {
 //runs at least once
-    do {
-    document.addEventListener(`keydown`, function(event) {
-        if (event.key === "Left") {
-                x = x + " ";
-        console.log(x)
+        if (event.key == "ArrowLeft") {
+            x = x + "   ";
+            console.log(x);
     }
-        if (event.key === "Right") {
-        x = " " + x;
+        if (event.key == "ArrowRight") {
+        x = "   " + x;
         console.log(x)
+;
     }
-    });
-}    while (x.length < 20);
-    
+})
+
 </script>
