@@ -20,3 +20,4 @@ console.log(val2); // 8
 let val3 = 21
 val3 %= 8; // val3 = val3 % 8
 console.log(val3); // 5
+//(＾Ｕ＾)ノ

@@ -53,18 +53,19 @@
 //    console.log(day);
 //}
 
-let numbers = [Math.round(Math.random() * 100), Math.round(Math.random() * 100), Math.round(Math.random() * 100), Math.round(Math.random() * 100), Math.round(Math.random() * 100)];
+let numbers = [Math.round(Math.random() * 10), Math.round(Math.random() * 10), Math.round(Math.random() * 10), Math.round(Math.random() * 10), Math.round(Math.random() * 100)];
 console.log(numbers);
 
-function getLargestNumber(arr) {
-    let result;
-    let num = 0;
-    for (let i = 0; i < 5; i++) {
+
+function getLargestNumber(arr, num) {
+    let result = [];
+    for (let i = 0; i < numbers.length; i++) {
         if (arr[i] > num) {
-            num = arr[i];
+            result.push(arr[i]);
         }
     }
-    result = num;
-    console.log(result);
+    return result;
 }
-getLargestNumber(numbers);
+    console.log(getLargestNumber(numbers, 8));
+
+    
