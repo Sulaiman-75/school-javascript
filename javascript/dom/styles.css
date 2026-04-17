@@ -1,0 +1,22 @@
+body {
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+}
+h2{
+position: fixed;
+    top: 0;
+  width: 100%; /* Fixed elements don't auto-fill width */
+  z-index: 1000;
+}
+h3{
+position: fixed;
+    bottom: 0;
+  width: 100%; /* Fixed elements don't auto-fill width */
+  z-index: 1000;
+}
+div
+{
+    text-align: center;
+}
